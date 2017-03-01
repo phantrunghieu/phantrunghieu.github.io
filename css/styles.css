@@ -1,0 +1,56 @@
+ @font-face {
+    font-family: SpaceMono;
+    src: url(SpaceMo-Boldno.ttf);
+
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;/*những thứ tràn nội dung sẽ bị ẩn */
+    background-color: rgba(255,255,255,0.2);
+
+}
+
+li {
+    float:left;
+
+   
+}
+
+li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: SpaceMono;
+   
+}
+
+
+
+li a:hover {/*màu khi chọn menu*/
+background-color: rgba(255, 255, 255, 0.5);
+    /*background-color: #bdc3c7;*/
+}
+#logo{
+    margin-left: 400px;
+margin-top: 10PX;
+display:inline-block;
+}
+
+div#slogan
+{
+margin-left: 300px;
+margin-top: 200PX;
+width: 800px;
+text-align: center;
+font-family:Goudy Stout;
+font-size: 30pt;
+color: #fff;
+
+}
+div#hieuphan{
+    border-radius: 50px;
+    margin-left: 300px;
+    
+}
