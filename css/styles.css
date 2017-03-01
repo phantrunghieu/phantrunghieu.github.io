@@ -3,6 +3,7 @@
     src: url(SpaceMo-Boldno.ttf);
 
 }
+body{background-image: url("pictures/background.jpeg");}
 ul {
     list-style-type: none;
     overflow: hidden;/*những thứ tràn nội dung sẽ bị ẩn */
