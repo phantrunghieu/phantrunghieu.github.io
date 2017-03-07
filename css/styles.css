@@ -1,10 +1,19 @@
- @font-face {
+﻿ @font-face {
     font-family: SpaceMono;
     src: url(SpaceMo-Boldno.ttf);
 
 }
-body{background-image: url("pictures/background.jpeg");}
+body {
+    background-image: url(../pictures/background.jpg);
+   
+}
+
 ul {
+top:0;
+left: -5px;
+width:98%;
+position: fixed;
+  margin-top: -10px;
     list-style-type: none;
     overflow: hidden;/*những thứ tràn nội dung sẽ bị ẩn */
     background-color: rgba(255,255,255,0.2);
@@ -18,7 +27,7 @@ li {
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: #333;
     text-align: center;
     padding: 14px 16px;
@@ -36,7 +45,8 @@ background-color: rgba(255, 255, 255, 0.5);
 #logo{
     margin-left: 400px;
 margin-top: 10PX;
-display:inline-block;
+display: inline-block;
+
 }
 
 div#slogan
