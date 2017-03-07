@@ -1,0 +1,120 @@
+﻿
+p{
+     position: absolute;
+    left: 200px;
+    top: 200px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Diplomata SC', cursive; 
+
+}
+body {
+    background-image: url(../pictures/background.jpg);
+   
+}
+
+ul {
+top:0;
+left: -5px;
+width:98%;
+position: fixed;
+  margin-top: 0px;
+    list-style-type: none;
+    overflow: hidden;/*những thứ tràn nội dung sẽ bị ẩn */
+    background-color: #2c3e50;
+
+}
+
+li {
+    float:left;
+
+   
+}
+
+li a {
+    display: inline-block;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: SpaceMono;
+   
+}
+
+
+
+li a:hover {/*màu khi chọn menu*/
+background-color: rgba(255, 255, 255, 0.5);
+    /*background-color: #bdc3c7;*/
+}
+#logo{
+    float: left;
+display: inline-block;
+
+}
+
+
+div#hieuphan{
+    border-radius: 50px;
+    margin-left: 300px;
+    
+}
+input[name=fname] {
+    position: absolute;
+    left: 550px;
+    top: 200px;
+    border: 2px cornflowerblue;
+    border-radius: 4px;
+    height: 30px;
+    width: 280px;
+    font-size: 16px;
+    padding-left: 30px;
+    background-image: url(../pictures/id.png);
+    background-repeat: no-repeat;
+    background-position: 5px 8px; 
+}
+input[name=lname] {
+    position: absolute;
+    left: 550px;
+    top: 280px;
+    border: 2px cornflowerblue;
+    border-radius: 4px;
+    height: 30px;
+    width: 280px;
+    font-size: 16px;
+    padding-left: 30px;
+      background-image: url(../pictures/pass.png);
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+}
+
+
+input[type=submit] {
+     position: absolute;
+    left: 550px;
+    top: 360px;
+ background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+ 
+}
+input[name=signup] {
+     position: absolute;
+    left: 700px;
+    top: 360px;
+ background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+ 
+}
