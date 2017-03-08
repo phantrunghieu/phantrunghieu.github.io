@@ -1,4 +1,14 @@
 ﻿
+p{
+     position: absolute;
+    left: 200px;
+    top: 200px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Diplomata SC', cursive; 
+
+}
 body {
     background-image: url(../pictures/background.gif);
     background-repeat: no-repeat;
@@ -51,7 +61,7 @@ div#hieuphan{
     margin-left: 300px;
     
 }
-input[name=aname] {
+input[name=fname] {
     position: absolute;
     left: 550px;
     top: 200px;
@@ -65,38 +75,10 @@ input[name=aname] {
     background-repeat: no-repeat;
     background-position: 5px 8px; 
 }
-input[name=pass] {
+input[name=lname] {
     position: absolute;
     left: 550px;
-    top: 260px;
-    border: 2px cornflowerblue;
-    border-radius: 4px;
-    height: 30px;
-    width: 280px;
-    font-size: 16px;
-    padding-left: 30px;
-      background-image: url(../pictures/pass.png);
-    background-repeat: no-repeat;
-    background-position: 5px 8px;
-}
-input[name=fname] {
-    position: absolute;
-    left: 550px;
-    top: 140px;
-    border: 2px cornflowerblue;
-    border-radius: 4px;
-    height: 30px;
-    width: 280px;
-    font-size: 16px;
-    padding-left: 30px;
-      background-image: url(../pictures/name.png);
-    background-repeat: no-repeat;
-    background-position: 5px 8px;
-}
-input[name=repass] {
-    position: absolute;
-    left: 550px;
-    top: 320px;
+    top: 280px;
     border: 2px cornflowerblue;
     border-radius: 4px;
     height: 30px;
@@ -108,10 +90,11 @@ input[name=repass] {
     background-position: 5px 8px;
 }
 
+
 input[type=submit] {
      position: absolute;
     left: 550px;
-    top: 320px;
+    top: 360px;
  background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -126,21 +109,7 @@ input[type=submit] {
 input[name=signup] {
      position: absolute;
     left: 700px;
-    top: 320px;
- background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 52px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
- 
-}
-input[name=signup2] {
-     position: absolute;
-    left: 630px;
-    top: 420px;
+    top: 360px;
  background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -155,7 +124,7 @@ input[name=signup2] {
     
    position: absolute;
     left: 550px;
-    top: 400px;  
+    top: 430px;  
     color:  #ecf0f1;
     display: inline-block;
     font-size: 14pt;
@@ -164,11 +133,9 @@ input[name=signup2] {
 #rectangle{
     width:700px;
     height:1000px;
-    background:#ecf0f1;
-}
-label[name="policy"]{
-     position: absolute;
-    left: 550px;
-    top: 360px;  
-    color: #ecf0f1;
+     position: relative;
+    left: 100px;
+    top: 100px;
+    background:whitesmoke;
+    display: inline-flex;
 }
